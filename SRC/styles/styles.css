@@ -1,0 +1,306 @@
+body {
+    /* background-image: url("C:/xampp/htdocs/IWTA2/src/image/background.png"); */
+}
+header {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+
+.NavigationBars {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.NavigationBarsli {
+    float: left;
+  }
+  
+.NavigationBarsli {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.NavigationBarsli:hover {
+    background-color: #111;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile .user-info {
+    margin-right: 10px;
+  }
+  
+  .user-profile img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+
+
+
+  
+
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  
+  
+  .right-side,
+  .left-side {
+    flex-basis: 50%;
+    padding: 14px 16px 20px 40px;
+    background-color: #ffffff;
+  }
+  
+   
+  
+  .content-container {
+    display: flex;
+    color: #000;
+  }
+  
+  
+  
+  .welcome {
+    text-align: center;
+  }
+  
+
+
+  .headbutton {
+    padding: 10px 20px;
+    margin: 0 8px;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+/*button css*/
+  .signup-button,
+  .event-registration, 
+  .see-more, 
+  .raise-ticket {
+    padding: 10px 250px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .signup-button:hover,
+  .event-registration:hover, 
+  .see-more:hover, 
+  .raise-ticket:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /*footer css*/
+  /* footer {
+    background-color: #333;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+   */
+  .left-section img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .left-section p {
+    font-size: 14px;
+    color: #302f2f;
+    margin-top: 10px;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  
+  .email-section input[type="email"] {
+    padding: 8px 50px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .email-section button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-section button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .links-section a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .links-section a:hover {
+    color: #007bff;
+  }
+  
+  .social-media-icons {
+    margin-top: 20px;
+  }
+  
+  .social-media-icons img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+  
+  .social-media-icons a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-media-icons a:hover {
+    opacity: 0.8;
+  }
+  
+  .copyrignt {
+    margin-top: 20px;
+  }
+  
+  .copyrignt span {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 50px;
+  }
+  
+  .ticket-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #9c7299;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .left-section label,
+  .right-section label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .left-section input[type="text"],
+  .left-section input[type="email"],
+  .left-section select,
+  .left-section textarea,
+  .right-section input[type="text"],
+  .right-section textarea,
+  .right-section input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons-section {
+    text-align: right;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons-section button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .buttons-section button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttons-section button[type="reset"]:hover {
+    background-color: #ff0000;
+  }
+  #table {
+
+    border: #000000 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

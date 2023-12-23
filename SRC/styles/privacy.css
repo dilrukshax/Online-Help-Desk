@@ -1,0 +1,66 @@
+.content-container {
+    text-align: left;
+    padding: 40px;
+  }
+  
+  .content-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .container-privacy {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container-privacy h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .container-privacy p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .container-privacy ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .container-privacy li {
+    margin-bottom: 5px;
+  }
+  
+  .container-privacy a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .container-privacy a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .content-container {
+    margin-top: 100px;
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
+  
+    
+  }
+  
+  h2{
+    text-align: center;
+  }

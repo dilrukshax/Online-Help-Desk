@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.logo {
+  font-size: 1em;
+  color: #fff;
+  user-select: none;
+}
+
+.navigation a{
+  position: relative;
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  margin-left: 25px;
+}
+
+.navigation a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+
+.navigation a:hover:after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.navigation .btnSignup-popup {
+width: 100px;
+height: 40px;
+background: transparent;
+border: 2px solid #fff;
+outline: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 1em;
+color: #fff;
+font-weight: 500;
+margin-left: 20px;
+}
+
+
+.navigation .btnLogin-popup:hover {
+  background: #fff;
+  color: #162938;
+}
+
+.navigation .btnSignup-popup:hover {
+background: #fff;
+color: #162938;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+line-height: 1.5;
+font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 1240px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 70px 0;
+    color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-col {
+    flex: 1 1 250px;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    color: #fff;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul {
+    list-style-type: circle;
+    padding-left: 0;
+}
+
+.footer-col ul li a {
+    font-size: px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #e91e63;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+    .navigation a {
+        margin: 10px;
+    }
+
+    .main-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-col {
+        flex: 1 1 100%;
+    }
+}
+.footer-col .subscribe-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-col .subscribe-form input[type="email"] {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.footer-col .subscribe-form button {
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-col .subscribe-form button:hover {
+  background-color: #c2185b;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #777;
+}
+
+.footer-bottom p a {
+  color: #777;
+  text-decoration: none;
+}
+
+.footer-bottom p a:hover {
+  text-decoration: underline;
+}
+
